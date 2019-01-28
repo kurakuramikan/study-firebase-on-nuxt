@@ -37,9 +37,15 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/pwa'
   ],
+
   // Axios module configuration
   axios: {
     baseURL: 'https://kurakuramikan-firebase.firebaseio.com'
+  },
+
+  // Router module configuration
+  router: {
+    middleware: ['auth-cookie']
   },
 
   // Build configuration
