@@ -19,3 +19,13 @@
     <el-menu-item index="5" style="float: right" :route="{ path: '/posts/new' }">新規投稿</el-menu-item>
   </el-menu>
 </template>
+
+<script>
+import { mapGetters } from "vuex";
+
+export default {
+  computed: {
+    ...mapGetters(["user"])
+  }
+};
+</script>
