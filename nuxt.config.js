@@ -39,7 +39,7 @@ module.exports = {
   ],
   // Axios module configuration
   axios: {
-    // See https://github.com/nuxt-community/axios-module#options
+    baseURL: 'https://kurakuramikan-firebase.firebaseio.com'
   },
 
   // Build configuration
