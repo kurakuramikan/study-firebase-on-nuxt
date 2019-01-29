@@ -1,4 +1,6 @@
 # Study firebase
+This repository is replicated [Nuxt Beginners Guide](https://github.com/potato4d/nuxt-beginners-guide/tree/master/packages/nuxt-blog-service).
+
 ## Recommended Development Environment
 
 | NAME                         | TYPE                   | COMMENT                               |
